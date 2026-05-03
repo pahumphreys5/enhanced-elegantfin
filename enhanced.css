@@ -1,0 +1,29 @@
+/* === DYNAMIC DIMMING LAYER === */
+
+.backgroundContainer::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.2) 0%,
+        rgba(0,0,0,0.6) 60%,
+        rgba(0,0,0,0.85) 100%
+    );
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* UI floats above backdrop */
+.skinHeader,
+.mainDrawer,
+.pageContainer {
+    position: relative;
+    z-index: 2;
+    background-color: transparent !important;
+}
+
+/* Glass effect */
+.skinHeader {
+    backdrop-filter: blur(12px);
+}

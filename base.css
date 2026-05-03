@@ -1,0 +1,19 @@
+/* === HARD BACKDROP ENABLE === */
+
+.backgroundContainer,
+.backgroundContainer.withBackdrop {
+    background-color: transparent !important;
+    backdrop-filter: none !important;
+}
+
+.backdropImage {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Kill blocking overlays */
+.backgroundContainer::before,
+.backgroundContainer::after {
+    display: none !important;
+}

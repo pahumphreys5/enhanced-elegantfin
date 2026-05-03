@@ -1,0 +1,10 @@
+/* Base ElegantFin */
+@import url("https://cdn.jsdelivr.net/gh/lscambo13/ElegantFin@main/Theme/ElegantFin-theme-v25.12.31.css");
+
+/* Your layers */
+@import url("https://YOUR-USERNAME.github.io/enhanced-elegantfin/base.css");
+@import url("https://YOUR-USERNAME.github.io/enhanced-elegantfin/enhanced.css");
+@import url("https://YOUR-USERNAME.github.io/enhanced-elegantfin/animations.css");
+</style>
+<script src="https://YOUR-USERNAME.github.io/enhanced-elegantfin/enhanced.js"></script>
+<style>

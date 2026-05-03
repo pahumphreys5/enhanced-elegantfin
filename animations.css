@@ -1,0 +1,20 @@
+/* Fade between backdrops */
+.backdropImage {
+    transition: opacity 0.6s ease-in-out;
+}
+
+/* Card hover zoom */
+.card:hover .cardImage {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Page fade-in */
+.pageContainer {
+    animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
